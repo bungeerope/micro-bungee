@@ -1,0 +1,16 @@
+system:
+  env: 'public'
+  port:
+  multi-point: false
+  # ['mysql','postgresql','sqlite','sqlserver']
+  db-type: 'mysql'
+
+mysql:
+  username: root
+  password: 'password'
+  url: '127.0.0.1:3306'
+  db-name: 'database1'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: false
